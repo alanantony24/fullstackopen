@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 
 participant browser
@@ -9,3 +10,4 @@ participant server
     server-->>browser: {"message": "note created"} 201
     Note right of browser: browser executes eventhandler to render the notes
     deactivate server
+```
